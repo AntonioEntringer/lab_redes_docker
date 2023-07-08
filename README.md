@@ -8,7 +8,7 @@ Este é um guia para executar um laboratório que envia arquivos entre máquinas
 
 ## Passo a passo
 
-1. Faça o download dos arquivos deste repositório em ambas as máquinas, cliente e servidor.
+1. Faça o download dos arquivos deste repositório em ambas as máquinas: cliente e servidor.
 
 2. **Na máquina cliente**:
    - Entre no diretório "cliente" para construir o cliente que enviará os arquivos:
@@ -39,3 +39,11 @@ Este é um guia para executar um laboratório que envia arquivos entre máquinas
 Você também pode obter as imagens diretamente do Docker Hub usando os seguintes comandos:
 
 - Para obter a imagem do cliente:
+
+docker pull antonioentringer/client:latest
+
+- Para obter a imagem do servidor:
+
+docker pull antonioentringer/server:latest
+
+Qualquer duvida entre em contato por: marcosmutzcontato@gmail.com ou edson.junioor0@gmail.com
