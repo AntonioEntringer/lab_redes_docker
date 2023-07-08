@@ -20,7 +20,7 @@ def receber_arquivo():
         os.makedirs(diretorio_salvar)
 
     # Solicitar o nome do arquivo para salvar
-    print("Cuidado: a extensão do novo nome de arquivo é diferente da original.")
+    print("Cuidado: a extensão do novo nome de arquivo não pode ser diferente do original.")
     novo_nome = input("Digite o novo nome do arquivo: ")
     
     # Verificar a extensão do novo nome de arquivo
