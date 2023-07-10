@@ -1,6 +1,6 @@
 # Laboratório de envio de arquivos entre máquinas distintas usando Docker
 
-Este é um guia para executar um laboratório que envia arquivos entre máquinas distintas usando Docker. O laboratório consiste em um cliente que envia um arquivo para um servidor. É necessário realizar o download e a construção dos arquivos em ambas as máquinas correspondentes.
+Este é um guia para executar um laboratório que envia arquivos entre máquinas distintas usando Docker. O laboratório consiste em um cliente que envia um arquivo para um servidor. O código pode ser executado por contrução local ou download direto do DockerHub
 
 ## Pré-requisitos
 
@@ -34,7 +34,7 @@ Este é um guia para executar um laboratório que envia arquivos entre máquinas
 
      Observação: O código solicitará que você informe um novo nome para o arquivo a ser salvo, mas tome cuidado com a extensão do arquivo.
 
-## ## Passo a passo para execução usando DockerHub
+## Passo a passo para execução usando DockerHub
 
 Você também pode obter as imagens diretamente do Docker Hub usando os seguintes comandos:
 
