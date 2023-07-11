@@ -11,5 +11,5 @@ COPY image-stitching.git /app
 RUN pip install --no-cache-dir requests
 
 # Define o comando de inicialização do contêiner
-CMD [ "python", "cliente-http.py" ]
+CMD [ "python", "/app/cliente-http.py" ]
 
