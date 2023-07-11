@@ -6,7 +6,7 @@ WORKDIR /app
 
 # Copia o arquivo Python para o diretório de trabalho do contêiner
 COPY cliente-http.py /app
-COPY image-stitching.git /app
+#COPY image-stitching.git /app
 # Instala a dependência do Python (requests)
 RUN pip install --no-cache-dir requests
 
