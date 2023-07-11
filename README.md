@@ -17,7 +17,7 @@ Este é um guia para executar um laboratório que envia arquivos entre máquinas
      ```
    - Execute o cliente que envia arquivos:
      ```
-     sudo docker run -it --network host -v <caminho da pasta que contém o código client-http.py + arquivo que deseja ser enviado>:/app client:latest
+     sudo docker run -it --network host -v <caminho da pasta que contém o código client-http.py + arquivo que deseja ser enviado>:/root/enviar client:latest
      ```
      Substitua `<caminho da pasta que contém o código client-http.py + arquivo que deseja ser enviado>` pelo caminho da pasta que contém o arquivo `client-http.py` e o arquivo que você deseja enviar.
 
