@@ -2,6 +2,9 @@
 
 Este é um guia para executar um laboratório que envia arquivos entre máquinas distintas usando Docker. O laboratório consiste em um cliente que envia um arquivo para um servidor. O código pode ser executado por contrução local ou download direto do DockerHub
 
+[![Vídeo demonstração]](https://www.youtube.com/watch?v=A9g1WDBmnhA&ab_channel=AntonioEntringer)
+
+
 ## Pré-requisitos
 
 - Docker instalado nas máquinas envolvidas.
